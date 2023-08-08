@@ -24,26 +24,26 @@ public class AppTest {
 		driver.manage().window().maximize();
 	}
 
-	@Test
-	public void iamNeo() throws InterruptedException {
+	/*@Test
+	public void testcase_01() throws InterruptedException {
 		
-		driver.get("https://flipkart.com/");
+		driver.get("http://www.flipkart.com/");
 
-	}
+	}*/
 
 	@Test
-	// Moving to FACEBOOK
-	public void NextPage() throws InterruptedException {
+	
+	public void testcase_02() throws InterruptedException {
 		
 		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a")).click();
 	}
 
 
 
-	@AfterTest
+	/*@AfterTest
 	public void afterTest() 
 	{
 		driver.quit();
-	}
+	}*/
 
 }
