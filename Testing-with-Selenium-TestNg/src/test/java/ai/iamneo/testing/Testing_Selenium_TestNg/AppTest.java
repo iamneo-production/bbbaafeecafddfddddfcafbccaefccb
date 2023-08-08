@@ -16,7 +16,7 @@ import org.testng.annotations.AfterTest;
 public class AppTest {
 
 	ChromeOptions chromeOptions = new ChromeOptions();
-	WebDriver driver=null;
+	WebDriver driver;
 
 	@BeforeTest
 	public void beforeTest() throws Exception
@@ -32,11 +32,10 @@ public class AppTest {
 
 	}
 	
-	
+	@Test
 	public void NextPage() throws InterruptedException {
 		//String str="abcde@gmail.com";
-		WebElement signin = driver.findElement(By.cssSelector("#container > div > div.q8WwEU > div > div > div > div > div.css-1dbjc4n.r-13awgt0 > div > div.css-1dbjc4n.r-13awgt0.r-1iqfa7g.r-60vfwk > div > div._2NhoPJ > header > div._2msBFL > div:nth-child(2) > div > div > div > a
-		@Test"));
+		WebElement signin = driver.findElement(By.cssSelector("#container > div > div.q8WwEU > div > div > div > div > div.css-1dbjc4n.r-13awgt0 > div > div.css-1dbjc4n.r-13awgt0.r-1iqfa7g.r-60vfwk > div > div._2NhoPJ > header > div._2msBFL > div:nth-child(2) > div > div > div > a"));
 		WebElement emailField = driver.findElement(By.cssSelector("#container > div > div._2dSUjN > div > div._36HLxm.col.col-3-5 > div > form > div.IiD88i._351hSN > input"));
 		emailField.sendKeys("abcde@gmail.com");
 		
@@ -48,10 +47,10 @@ public class AppTest {
 
 
 
-	@AfterTest
+	/*@AfterTest
 	public void afterTest() 
 	{
 		driver.quit();
-	}
+	}*/
 
 }
