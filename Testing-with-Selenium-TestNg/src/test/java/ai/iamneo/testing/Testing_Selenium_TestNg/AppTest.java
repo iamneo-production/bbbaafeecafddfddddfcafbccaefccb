@@ -27,8 +27,8 @@ public class AppTest {
 	@Test
 	public void iamNeo() throws InterruptedException {
 		
-		driver.get("https://www.flipkart.com/account/login?ret=/");
-		driver.findElement(By.xpath("//*[@id=\"container"]/div/div[3]/div/div[2]/div/form/div[1]/input")).click();
+		driver.get("http://www.flipkart.com/");
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div")).click();
 
 	}
 
@@ -41,11 +41,11 @@ public class AppTest {
 
 
 
-	/*@AfterTest
+	@AfterTest
 	public void afterTest() 
 	{
 		driver.quit();
-	}*/
+	}
 
 }
 
