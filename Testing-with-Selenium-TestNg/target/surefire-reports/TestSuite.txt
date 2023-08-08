@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 86.658 s <<< FAILURE! - in TestSuite
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.NextPage  Time elapsed: 0.066 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'bbbaafeecafddfddddfcafbccaefccb-0', ip: '10.56.52.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9eb58a7e81f7c88b48198a0d7409cbfd, findElement {using=xpath, value=//*[@id="container"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.yCb4bh}, goog:chromeOptions: {debuggerAddress: localhost:40655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.52.9:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.52.9:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.52.9:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eb58a7e81f7c88b48198a0d7409cbfd
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.NextPage(AppTest.java:38)
+
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.iamNeo  Time elapsed: 4.085 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=114.0.5735.133)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'bbbaafeecafddfddddfcafbccaefccb-0', ip: '10.56.52.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9eb58a7e81f7c88b48198a0d7409cbfd, get {url=https://flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.yCb4bh}, goog:chromeOptions: {debuggerAddress: localhost:40655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.52.9:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.52.9:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.52.9:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eb58a7e81f7c88b48198a0d7409cbfd
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.iamNeo(AppTest.java:30)
+

@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
@@ -28,8 +27,7 @@ public class AppTest {
 	@Test
 	public void iamNeo() throws InterruptedException {
 		
-		driver.get("http://www.flipkart.com");
-		driver.close();
+		driver.get("https://flipkart.com/");
 
 	}
 
@@ -37,14 +35,8 @@ public class AppTest {
 	// Moving to FACEBOOK
 	public void NextPage() throws InterruptedException {
 		
-		driver.navigate().to("http://www.flipkart.com/account/login?ret=/");
-		
-		driver.findElement(By.xpath("//*[@id\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendKeys("abcde@gmail.com");
-		
-		//WebElement requestButton = driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[3]/button"));
-		//requestButton.click();
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a")).click();
 	}
-
 
 
 
