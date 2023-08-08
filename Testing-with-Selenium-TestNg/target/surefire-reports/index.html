@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest" class="method navigator-link" hash-for-method="BackPage">BackPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest" class="method navigator-link" hash-for-method="NextPage">NextPage</a> <!-- method navigator-link -->
@@ -150,35 +145,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="BackPage">
-                  </a> <!-- BackPage -->
-                  <span class="method-name">BackPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#container &gt; div &gt; div._2dSUjN &gt; div &gt; div._36HLxm.col.col-3-5 &gt; div &gt; form &gt; div.IiD88i._351hSN &gt; input&quot;}
-  (Session info: chrome=114.0.5735.133)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;bbbaafeecafddfddddfcafbccaefccb-0&apos;, ip: &apos;10.56.102.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.nI32nV}, goog:chromeOptions: {debuggerAddress: localhost:34403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18032d0167af952f508158c11a42223a
-*** Element info: {Using=css selector, value=#container &gt; div &gt; div._2dSUjN &gt; div &gt; div._36HLxm.col.col-3-5 &gt; div &gt; form &gt; div.IiD88i._351hSN &gt; input}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.BackPage(AppTest.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="NextPage">
                   </a> <!-- NextPage -->
                   <span class="method-name">NextPage</span>
@@ -189,8 +155,8 @@ from tab crashed
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;bbbaafeecafddfddddfcafbccaefccb-0&apos;, ip: &apos;10.56.102.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.nI32nV}, goog:chromeOptions: {debuggerAddress: localhost:34403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18032d0167af952f508158c11a42223a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.8S18jh}, goog:chromeOptions: {debuggerAddress: localhost:46155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77503fcfef722094381c5c66834885ea
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -213,8 +179,8 @@ Session ID: 18032d0167af952f508158c11a42223a
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;bbbaafeecafddfddddfcafbccaefccb-0&apos;, ip: &apos;10.56.102.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.nI32nV}, goog:chromeOptions: {debuggerAddress: localhost:34403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18032d0167af952f508158c11a42223a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.8S18jh}, goog:chromeOptions: {debuggerAddress: localhost:46155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77503fcfef722094381c5c66834885ea
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -295,28 +261,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'NextPage')
 data.setCell(0, 2, 'ai.iamneo.testing.Testing_Selenium_TestNg.AppTest')
-data.setCell(0, 3, 6399);
+data.setCell(0, 3, 5401);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'CurrentURL')
 data.setCell(1, 2, 'ai.iamneo.testing.Testing_Selenium_TestNg.AppTest')
-data.setCell(1, 3, 236);
+data.setCell(1, 3, 233);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'iamNeo')
 data.setCell(2, 2, 'ai.iamneo.testing.Testing_Selenium_TestNg.AppTest')
-data.setCell(2, 3, 178);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'BackPage')
-data.setCell(3, 2, 'ai.iamneo.testing.Testing_Selenium_TestNg.AppTest')
-data.setCell(3, 3, 166);
+data.setCell(2, 3, 85);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -348,30 +310,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">BackPage</span>
-                <span class="method-start">6408 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">CurrentURL</span>
-                <span class="method-start">6595 ms</span>
+                <span class="method-start">4524 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">NextPage</span>
-                <span class="method-start">6838 ms</span>
+                <span class="method-start">4761 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">iamNeo</span>
-                <span class="method-start">13249 ms</span>
+                <span class="method-start">10171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">13432 ms</span>
+                <span class="method-start">10261 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

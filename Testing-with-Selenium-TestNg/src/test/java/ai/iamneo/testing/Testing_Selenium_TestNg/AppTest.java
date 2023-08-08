@@ -27,7 +27,8 @@ public class AppTest {
 	@Test
 	public void iamNeo() throws InterruptedException {
 		
-		driver.get("https://www.flipkart.com");
+		driver.get("https://www.flipkart.com/");
+		driver.findElement(By.xpath("")).click();
 
 	}
 
@@ -35,24 +36,11 @@ public class AppTest {
 	// Moving to FACEBOOK
 	public void NextPage() throws InterruptedException {
 		
-		driver.navigate().to("https://www.flipkart.com/account/login?ret=/");
-		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendkeys("praveenryz@gmail.com");
+		driver.navigate().to("https://www.facebook.com");
 	}
 
-	@Test
-	public void BackPage() throws InterruptedException {
-		
-		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendkeys("praveenryz@gmail.com");
-	}
 
-	@Test
-	// Current URL
-	public void CurrentURL() throws InterruptedException {
-		
-		System.out.println("Current URL: " + driver.getCurrentUrl());
-		driver.navigate().forward();
-		driver.navigate().refresh();
-}
+
 
 
 	@AfterTest

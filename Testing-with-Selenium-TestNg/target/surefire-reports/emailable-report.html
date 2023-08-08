@@ -9,40 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">13,660</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">10,338</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m0">BackPage</a></td><td rowspan="1">1691492498958</td><td rowspan="1">166</td></tr><tr class="failedeven"><td><a href="#m1">NextPage</a></td><td rowspan="1">1691492499388</td><td rowspan="1">6399</td></tr><tr class="failedeven"><td><a href="#m2">iamNeo</a></td><td rowspan="1">1691492505799</td><td rowspan="1">178</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m3">CurrentURL</a></td><td rowspan="1">1691492499145</td><td rowspan="1">236</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m0">NextPage</a></td><td rowspan="1">1691492717276</td><td rowspan="1">5401</td></tr><tr class="failedeven"><td><a href="#m1">iamNeo</a></td><td rowspan="1">1691492722686</td><td rowspan="1">85</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m2">CurrentURL</a></td><td rowspan="1">1691492717039</td><td rowspan="1">233</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#BackPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#container &gt; div &gt; div._2dSUjN &gt; div &gt; div._36HLxm.col.col-3-5 &gt; div &gt; form &gt; div.IiD88i._351hSN &gt; input&quot;}
-  (Session info: chrome=114.0.5735.133)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;bbbaafeecafddfddddfcafbccaefccb-0&apos;, ip: &apos;10.56.102.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.nI32nV}, goog:chromeOptions: {debuggerAddress: localhost:34403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18032d0167af952f508158c11a42223a
-*** Element info: {Using=css selector, value=#container &gt; div &gt; div._2dSUjN &gt; div &gt; div._36HLxm.col.col-3-5 &gt; div &gt; form &gt; div.IiD88i._351hSN &gt; input}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.BackPage(AppTest.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#NextPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+<h2>Surefire test</h2><h3 id="m0">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#NextPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;bbbaafeecafddfddddfcafbccaefccb-0&apos;, ip: &apos;10.56.102.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.nI32nV}, goog:chromeOptions: {debuggerAddress: localhost:34403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18032d0167af952f508158c11a42223a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.8S18jh}, goog:chromeOptions: {debuggerAddress: localhost:46155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77503fcfef722094381c5c66834885ea
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -53,12 +32,12 @@ Session ID: 18032d0167af952f508158c11a42223a
 	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.NextPage(AppTest.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#iamNeo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
+<h3 id="m1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#iamNeo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;bbbaafeecafddfddddfcafbccaefccb-0&apos;, ip: &apos;10.56.102.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.nI32nV}, goog:chromeOptions: {debuggerAddress: localhost:34403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18032d0167af952f508158c11a42223a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.8S18jh}, goog:chromeOptions: {debuggerAddress: localhost:46155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.102.3:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.102.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.102.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 77503fcfef722094381c5c66834885ea
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -68,6 +47,6 @@ Session ID: 18032d0167af952f508158c11a42223a
 	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.iamNeo(AppTest.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#CurrentURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#CurrentURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
