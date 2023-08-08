@@ -23,6 +23,7 @@ public class AppTest {
 public void beforeTest() throws Exception {
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
+	driver.navigate().to("https://www.flipkart.com/");
 	driver.manage().window().maximize();
 }
 
