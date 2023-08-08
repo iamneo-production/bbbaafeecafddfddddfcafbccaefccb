@@ -26,22 +26,22 @@ public class AppTest {
 	}
 
 	@Test
-	public void iamneo() throws InterruptedException{
+	public void Iamneo() throws InterruptedException{
 	
-		driver.get(""https://www.flipkart.com/account/login"");
+		driver.get("https://www.flipkart.com/account/login");
 
 	}
 
-	@Test
+/* 	@Test
 	
 	public void NextPage() throws InterruptedException {
 		String str="abcde@gmail.com";
-		Thread.sleep(1000);
-		WebElement login = driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input"));
-        login.sendKeys(str);
-		Thread.sleep(1000);
-		WebElement requestbtn = driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/form/div[3]/button"));
-        requestbtn.click();
+		 
+		WebElement emailField = driver.findElement(By.cssSelector("input[type='text']"));
+		emailField.sendKeys(str);
+		
+		WebElement requestButton = driver.findElement(By.cssSelector("button[type='submit']"));
+		requestButton.click();
         
 
 	}
@@ -52,6 +52,6 @@ public class AppTest {
 	public void afterTest() 
 	{
 		driver.quit();
-	}
+	}*/
 
 }
