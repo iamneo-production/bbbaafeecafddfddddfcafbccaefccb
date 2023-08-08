@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeTest"/>
           <include name="NextPage"/>
-          <include name="Iamneo"/>
         </methods>
       </class> <!-- ai.iamneo.testing.Testing_Selenium_TestNg.AppTest -->
     </classes>

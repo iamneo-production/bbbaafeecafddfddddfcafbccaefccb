@@ -7,30 +7,33 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class AppTest {
-
-	ChromeOptions chromeOptions = new ChromeOptions();
 	WebDriver driver;
 
-	@BeforeTest
-	public void beforeTest() throws Exception
-	 {
-		driver = new RemoteWebDriver(new URL("http://localhost:4444"),chromeOptions);
-		driver.manage().window().maximize();
-	}
-
 	@Test
+public void beforeTest() throws Exception {
+    WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.navigate().to("https://www.flipkart.com/");
+        driver.manage().window().maximize();
+}
+
+
+	/*@Test
 	public void Iamneo() throws InterruptedException{
 	
-		driver.get("http://www.flipkart.com");
-        Thread.sleep(1000);
-	}
+		driver.get("https://www.flipkart.com/");
+
+	}*/
 	
 	@Test
 	public void NextPage() throws InterruptedException {
