@@ -26,9 +26,9 @@ public class AppTest {
 	}
 
 	@Test
-	public void FlipKart() throws InterruptedException{
-		String a="https://www.flipkart.com/";
-		driver.get(a);
+	public void iamneo() throws InterruptedException{
+	
+		driver.get("http://www.flipkart.com");
 
 	}
 
