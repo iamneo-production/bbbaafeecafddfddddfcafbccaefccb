@@ -32,15 +32,15 @@ public class AppTest {
 
 	}
 
-/* 	@Test
+@Test
 	
 	public void NextPage() throws InterruptedException {
-		String str="abcde@gmail.com";
+		//String str="abcde@gmail.com";
 		 
-		WebElement emailField = driver.findElement(By.cssSelector("input[type='text']"));
-		emailField.sendKeys(str);
+		WebElement emailField = driver.findElement(By.cssSelector("body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div.IiD88i._351hSN > input"));
+		emailField.sendKeys("abcde@gmail.com");
 		
-		WebElement requestButton = driver.findElement(By.cssSelector("button[type='submit']"));
+		WebElement requestButton = driver.findElement(By.cssSelector("body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div._1k3JO2 > button"));
 		requestButton.click();
         
 
@@ -52,6 +52,6 @@ public class AppTest {
 	public void afterTest() 
 	{
 		driver.quit();
-	}*/
+	}
 
 }
