@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import java.net.URL;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -35,14 +35,13 @@ public class AppTest {
 	// Moving to FACEBOOK
 	public void NextPage() throws InterruptedException {
 		
-		driver.navigate().to("https://www.facebook.com");
+		driver.navigate().to("https://www.flipkart.com/account/login?ret=/");
 	}
 
 	@Test
-	// Back to iamNeo
 	public void BackPage() throws InterruptedException {
 		
-		driver.navigate().back();
+		driver.findElement(By.id("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendKeys("praveenryz@gmail.com");
 	}
 
 	@Test
