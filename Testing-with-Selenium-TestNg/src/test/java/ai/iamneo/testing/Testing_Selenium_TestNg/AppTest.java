@@ -28,7 +28,7 @@ public class AppTest {
 	@Test
 	public void Iamneo() throws InterruptedException{
 	
-		driver.get("https://www.flipkart.com/");
+		driver.get("http://www.flipkart.com");
 
 	}
 	
