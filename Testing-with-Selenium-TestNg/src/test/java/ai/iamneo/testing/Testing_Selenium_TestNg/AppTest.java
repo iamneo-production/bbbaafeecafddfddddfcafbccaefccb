@@ -24,18 +24,18 @@ public class AppTest {
 		driver.manage().window().maximize();
 	}
 
-	/*@Test
+	@Test
 	public void testcase_01() throws InterruptedException {
 		
 		driver.get("http://www.flipkart.com/");
-
-	}*/
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a")).click();
+	}
 
 	@Test
 	
 	public void testcase_02() throws InterruptedException {
-		
-		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a")).click();
+		driver.navigate()
+		driver.getTitle();
 	}
 
 
