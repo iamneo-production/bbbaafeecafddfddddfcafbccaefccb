@@ -28,7 +28,7 @@ public class AppTest {
 	@Test
 	public void Iamneo() throws InterruptedException{
 	
-		driver.get("https://www.flipkart.com/account/login");
+		driver.get("https://www.flipkart.com/");
 
 	}
 
@@ -40,8 +40,8 @@ public class AppTest {
 		WebElement emailField = driver.findElement(By.cssSelector("body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div.IiD88i._351hSN > input"));
 		emailField.sendKeys("abcde@gmail.com");
 		
-		WebElement requestButton = driver.findElement(By.cssSelector("body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div._1k3JO2 > button"));
-		requestButton.click();
+		//WebElement requestButton = driver.findElement(By.cssSelector("body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div._1k3JO2 > button"));
+		//requestButton.click();
         
 
 	}
