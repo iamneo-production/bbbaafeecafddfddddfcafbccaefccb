@@ -1,29 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 146.433 s <<< FAILURE! - in TestSuite
-ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_01  Time elapsed: 3.148 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
-  (Session info: chrome=114.0.5735.133)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 181.999 s <<< FAILURE! - in TestSuite
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest  Time elapsed: 181.662 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest(AppTest.java:23)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'bbbaafeecafddfddddfcafbccaefccb-0', ip: '10.56.52.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [fc2f986ddf260547939beb5e2197cce7, get {url=http://www.flipkart.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.i97AwD}, goog:chromeOptions: {debuggerAddress: localhost:41255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.52.9:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.52.9:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.52.9:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc2f986ddf260547939beb5e2197cce7
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_01(AppTest.java:30)
-
-ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_02  Time elapsed: 0.07 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'bbbaafeecafddfddddfcafbccaefccb-0', ip: '10.56.52.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [fc2f986ddf260547939beb5e2197cce7, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.i97AwD}, goog:chromeOptions: {debuggerAddress: localhost:41255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.52.9:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.52.9:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.52.9:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc2f986ddf260547939beb5e2197cce7
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_02(AppTest.java:38)
+Driver info: driver.version: RemoteWebDriver
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest(AppTest.java:23)
+Caused by: java.util.concurrent.TimeoutException
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest(AppTest.java:23)
 

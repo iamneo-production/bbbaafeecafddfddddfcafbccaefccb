@@ -15,7 +15,7 @@ import org.testng.annotations.AfterTest;
 public class AppTest {
 
 	ChromeOptions chromeOptions = new ChromeOptions();
-	WebDriver driver=null;
+	WebDriver driver;
 
 	@BeforeTest
 	public void beforeTest() throws Exception
@@ -27,14 +27,14 @@ public class AppTest {
 	@Test
 	public void testcase_01() throws InterruptedException {
 		
-		driver.get("http://www.flipkart.com/");
+		driver.get("flipkart.com");
 		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a")).click();
 	}
 
 	@Test
 	
 	public void testcase_02() throws InterruptedException {
-		driver.navigate()
+		driver.navigate().to("flipkart.com");
 		driver.getTitle();
 	}
 
