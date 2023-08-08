@@ -29,7 +29,7 @@ public class AppTest {
 	public void Iamneo() throws InterruptedException{
 	
 		driver.get("http://www.flipkart.com");
-
+        Thread.sleep(1000);
 	}
 	
 	@Test
