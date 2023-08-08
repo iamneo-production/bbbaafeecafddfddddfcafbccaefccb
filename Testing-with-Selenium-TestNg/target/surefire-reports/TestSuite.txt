@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 88.771 s <<< FAILURE! - in TestSuite
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest  Time elapsed: 88.604 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50754/devtools/browser/90600d86-5cdc-4a34-8313-c685ce80e321
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MR-PRAVEEN', ip: '172.20.10.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest(AppTest.java:25)
+
