@@ -28,7 +28,7 @@ public class AppTest {
 	public void iamNeo() throws InterruptedException {
 		
 		driver.get("https://www.flipkart.com/");
-		driver.findElement(By.xpath("")).click();
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[2]/div[2]/div/div/div/a/img")).click();
 
 	}
 
