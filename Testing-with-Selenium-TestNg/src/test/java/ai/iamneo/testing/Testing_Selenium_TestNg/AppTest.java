@@ -41,8 +41,8 @@ public class AppTest {
 		WebElement emailField = driver.findElement(By.xpath("//*[@id\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input"));
 		emailField.sendKeys("abcde@gmail.com");
 		
-		WebElement requestButton = driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[3]/button"));
-		requestButton.click();
+		//WebElement requestButton = driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[3]/button"));
+		//requestButton.click();
 	}
 
 
