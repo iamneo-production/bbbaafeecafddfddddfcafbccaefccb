@@ -36,12 +36,13 @@ public class AppTest {
 	public void NextPage() throws InterruptedException {
 		
 		driver.navigate().to("https://www.flipkart.com/account/login?ret=/");
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendkeys("praveenryz@gmail.com");
 	}
 
 	@Test
 	public void BackPage() throws InterruptedException {
 		
-		driver.findElement(By.id("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendKeys("praveenryz@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendkeys("praveenryz@gmail.com");
 	}
 
 	@Test

@@ -5,8 +5,10 @@
     <classes>
       <class name="ai.iamneo.testing.Testing_Selenium_TestNg.AppTest">
         <methods>
+          <include name="iamNeo"/>
           <include name="BackPage"/>
           <include name="beforeTest"/>
+          <include name="NextPage"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- ai.iamneo.testing.Testing_Selenium_TestNg.AppTest -->
