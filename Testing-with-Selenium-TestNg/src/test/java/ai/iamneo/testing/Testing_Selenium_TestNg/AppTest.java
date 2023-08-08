@@ -28,7 +28,7 @@ public class AppTest {
 	@Test
 	public void iamNeo() throws InterruptedException {
 		
-		driver.get("https://www.flipkart.com/");
+		driver.get("http://www.flipkart.com");
 
 	}
 
@@ -36,13 +36,12 @@ public class AppTest {
 	// Moving to FACEBOOK
 	public void NextPage() throws InterruptedException {
 		
-		driver.navigate().to("https://www.flipkart.com");
-		WebElement signin = driver.findElement(By.cssSelector("#container > div > div.q8WwEU > div > div > div > div > div.css-1dbjc4n.r-13awgt0 > div > div.css-1dbjc4n.r-13awgt0.r-1iqfa7g.r-60vfwk > div > div._2NhoPJ > header > div._2msBFL > div:nth-child(2) > div > div > div > a"));
-		signin.click();
-		WebElement emailField = driver.findElement(By.cssSelector("#container > div > div._2dSUjN > div > div._36HLxm.col.col-3-5 > div > form > div.IiD88i._351hSN > input"));
+		driver.navigate().to("http://www.flipkart.com/account/login?ret=/");
+		
+		WebElement emailField = driver.findElement(By.xpath("//*[@id\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input"));
 		emailField.sendKeys("abcde@gmail.com");
 		
-		WebElement requestButton = driver.findElement(By.cssSelector("body > div._2Sn47c > div > div > div > div > div._36HLxm.col.col-3-5 > div > form > div._1k3JO2 > button"));
+		WebElement requestButton = driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[3]/button"));
 		requestButton.click();
 	}
 
