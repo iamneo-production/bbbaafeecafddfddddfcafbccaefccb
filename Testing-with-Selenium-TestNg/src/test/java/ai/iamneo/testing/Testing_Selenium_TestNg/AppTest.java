@@ -17,14 +17,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class AppTest {
-	WebDriver driver=null;
+	WebDriver driver;
 
 	@BeforeTest
 public void beforeTest() throws Exception {
-    WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.navigate().to("https://www.flipkart.com/");
-        driver.manage().window().maximize();
+	WebDriverManager.chromedriver().setup();
+	driver = new ChromeDriver();
+	driver.manage().window().maximize();
 }
 
 

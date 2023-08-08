@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: ai.iamneo.testing.Testing_Selenium_TestNg.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.28 s <<< FAILURE! - in ai.iamneo.testing.Testing_Selenium_TestNg.AppTest
+beforeTest(ai.iamneo.testing.Testing_Selenium_TestNg.AppTest)  Time elapsed: 2.858 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'bbbaafeecafddfddddfcafbccaefccb-0', ip: '10.56.102.3', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55a62ab084e3 <unknown>
+#1 0x55a62a837c76 <unknown>
+#2 0x55a62a85e757 <unknown>
+#3 0x55a62a85d029 <unknown>
+#4 0x55a62a89bccc <unknown>
+#5 0x55a62a89b47f <unknown>
+#6 0x55a62a892de3 <unknown>
+#7 0x55a62a8682dd <unknown>
+#8 0x55a62a86934e <unknown>
+#9 0x55a62aac83e4 <unknown>
+#10 0x55a62aacc3d7 <unknown>
+#11 0x55a62aad6b20 <unknown>
+#12 0x55a62aacd023 <unknown>
+#13 0x55a62aa9b1aa <unknown>
+#14 0x55a62aaf16b8 <unknown>
+#15 0x55a62aaf1847 <unknown>
+#16 0x55a62ab01243 <unknown>
+#17 0x7fe73a3beea7 start_thread
+
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest(AppTest.java:25)
+

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 5.228 s <<< FAILURE! - in TestSuite
-ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest  Time elapsed: 4.875 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.129 s <<< FAILURE! - in TestSuite
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.beforeTest  Time elapsed: 2.893 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary
 Build info: version: '4.1.0', revision: '87802e897b'
